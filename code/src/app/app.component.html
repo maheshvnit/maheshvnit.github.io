@@ -22,6 +22,23 @@
             <ion-label>{{ label }}</ion-label>
           </ion-item>
         </ion-list>
+
+        <ion-footer style="        text-align: -webkit-center;    ">
+          <h3>Let's get connected <span role="img">🔗</span></h3>
+          <div style="display: flex;justify-content: space-around;font-size: xxx-large;">
+            <div><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/maheshvnit" class="btn btn-light">
+              <ion-icon slot="start" ios="logo-linkedin-outline" md="logo-linkedin"></ion-icon>
+            </a></div>
+            <div><a target="_blank" rel="noopener noreferrer" href="https://github.com/maheshvnit" class="btn btn-light">
+              <ion-icon slot="start" ios="logo-github-outline" md="logo-github"></ion-icon>
+            </a></div>
+          </div>
+          <ion-toolbar>                
+            <ion-title >Copyright &copy; <span class="yr-cprt">2020</span> Mahesh Prasad</ion-title>
+            <ion-title ><small>All Rights Reserved.</small></ion-title> 
+          </ion-toolbar>
+        </ion-footer>
+
       </ion-content>
     </ion-menu>
     <ion-router-outlet id="main-content"></ion-router-outlet>
